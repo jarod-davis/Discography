@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+ <meta charset="utf-8"> 
+ <title>Animal Collective</title> 
+ <meta name="description" content="Anco"> 
+ <meta name="author" content="Jarod S. Davis">
+
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet">
+	<link rel="stylesheet" href="css/disc.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1,
+	maximum-scale=1">
+</head>
+ 
+<body class="home">
+ <header><img id="banner" role="banner" src="images/anco.png" alt="animal collective"></header>   
+<nav id="nav"> 
+    
+    <a href="#bio">Artist Bio /</a>    
+    <a href="#discog">Discography /</a>
+    <a href="#signup">Sign Up</a>
+    
+</nav> 
+    <img id="band" src="images/transparent.png" alt="animal collective">
+   
+    
+    <h1>Quick Bio</h1>
+    <div class="container">
+        <p class="about">  <!-- src = wikipedia-->
+        Animal Collective is an American experimental pop band formed in Baltimore, Maryland in 2003. Its members and founders are Avey Tare (David Portner), Panda Bear (Noah Lennox), Deakin (Josh Dibb), and Geologist (Brian Weitz). The band's music is characterized by studio experimentation, vocal harmonies, and an exploration of various genres which include freak folk, noise rock, ambient drone, and psychedelia.
+    </p> 
+    </div>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9mDpPPBL51s" allowfullscreen></iframe>
+    
+    
+    <h1 id="discog">Brief Discography</h1>
+    
+    <div class="album">
+    <a  href="mpp.html"><img src="images/mpp.jpg" alt="Merriwether Post Pavilion" width="600"></a>
+    <a  href="strawberry.html"><img src="images/strawberry.jpg" alt="Strawberry Jam" width="600"></a>
+    <a  href="feels.html"><img src="images/feels.jpg" alt="Feels" width="600"></a>
+    <a  href="sungtongs.html"><img src="images/sungtongs.jpg" alt="Sung Tongs" width="600"></a>
+    </div>
+    
+    
+
+		<div id="register" class="animate form">
+			<form  action="mysuperscript.php" autocomplete="on"> 
+				<h1 id="signup"> Sign up </h1> 
+                    <div id="box">
+				<p class="sign"> 
+					<label for="usernamesignup" class="uname" data-icon="u">Your username</label>
+					<input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="lolwhatup99" />
+				</p>
+				<p class="sign"> 
+					<label for="emailsignup" class="youmail" data-icon="e" > Your email</label>
+					<input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="whatup99@gmail.com"/> 
+				</p>
+				<p class="sign"> 
+					<label for="passwordsignup" class="youpasswd" data-icon="p">Your password </label>
+					<input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. whatup99"/>
+				</p>
+				<p class="sign"> 
+					<label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Please confirm your password </label>
+					<input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. whatup99"/>
+				</p>
+				<p class="sign"> 
+					<input type="submit" value="Sign up"/> 
+				</p>
+                        </div>
+				<p class="sign">  
+					Already a member ?
+					<a href="#tologin" class="to_register"> Go and log in </a>
+				</p>
+			</form>
+		</div>
+        
+		
+	
+ 
+    
+        <footer id="footer">
+            <p>website design by Jarod Davis</p>
+        </footer>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> 
+<script src="js/jquery.fittext2.js"></script>
+<script>
+$("#responsive_headline").fitText2(); 
+</script> 
+
+</body> 
+</html>
